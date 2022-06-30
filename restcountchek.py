@@ -3,8 +3,12 @@ from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
+
 s=Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
+
+
 driver.get("https://touchcasinop:x*oVqmY3Jb!I@touchcasino.com/en")
 driver.maximize_window()
 time.sleep(4)
